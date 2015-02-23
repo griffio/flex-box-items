@@ -1,0 +1,25 @@
+{
+  "name": "flex-box-item",
+  "version": "1.0.0",
+  "description": "flexbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "beefy index.js:bundle.js --live --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/griffio/flex-box-items.git"
+  },
+  "author": "griffio",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^5.1.0",
+    "cssify": "^0.6.0"
+  },
+  "browserify": {
+    "transform": [
+      "cssify"
+    ]
+  }
+}
